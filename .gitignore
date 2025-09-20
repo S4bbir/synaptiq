@@ -1,0 +1,49 @@
+# Dependencies
+node_modules
+.npm
+
+# Production builds
+.out
+.next
+.nuxt
+.dist
+build
+
+# Logs
+logs
+*.log
+
+# Environment files
+.env*
+!.env.example
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# System files
+Thumbs.db
+
+# Temporary files
+.tmp
+.temp
+
+# Coverage reports
+coverage/
+
+# Build outputs
+dist/
+build/
+
+# Cache directories
+.cache/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Local development files
+*.local
