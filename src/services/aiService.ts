@@ -104,7 +104,7 @@ export async function getAIResponse(userMessage: string): Promise<AIResponse> {
     
     // Call the Gemini API with the gemini-2.5-flash-lite model
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=AIzaSyAIkOI9AerNgt11HxG086b_1WaAPftH4TY`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key= " Your API KEY ",
       {
         method: 'POST',
         headers: {
